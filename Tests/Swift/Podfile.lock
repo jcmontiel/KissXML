@@ -1,0 +1,16 @@
+PODS:
+  - KissXML/Core (5.0.3)
+  - KissXML/libxml_module (5.0.3):
+    - KissXML/Core
+
+DEPENDENCIES:
+  - KissXML/libxml_module (from `../../`)
+
+EXTERNAL SOURCES:
+  KissXML:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  KissXML: d3ca6571be0dd19555a65db19e3d2024409e08c4
+
+COCOAPODS: 0.39.0
