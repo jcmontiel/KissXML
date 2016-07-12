@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-@import KissXML;
+#import <KissXML/KissXML.h>
 
 @interface DDAssertionHandler : NSAssertionHandler
 {
@@ -2011,7 +2011,7 @@ static DDAssertionHandler *ddAssertionHandler;
 
 @synthesize shouldLogAssertionFailure;
 
-- (id)init
+- (instancetype)init
 {
     if ((self = [super init]))
     {

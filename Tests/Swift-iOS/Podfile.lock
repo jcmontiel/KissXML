@@ -1,16 +1,18 @@
 PODS:
-  - KissXML/Core (5.0.3)
-  - KissXML/libxml_module (5.0.3):
+  - KissXML/Core (5.1.0)
+  - KissXML/SwiftNSXML (5.1.0):
     - KissXML/Core
 
 DEPENDENCIES:
-  - KissXML/libxml_module (from `../../`)
+  - KissXML/SwiftNSXML (from `../../`)
 
 EXTERNAL SOURCES:
   KissXML:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  KissXML: d3ca6571be0dd19555a65db19e3d2024409e08c4
+  KissXML: ca3d22281d71d6591bf9d251625ffd3f11cf3297
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: a8fd308fffe037f416290d2559daad4c1335fa7b
+
+COCOAPODS: 1.0.1

@@ -7,96 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FB55F4C9A619D81B2B6D5F9 /* Pods_KissXMLSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C05E6813A1A077F1A35E5F /* Pods_KissXMLSwiftTests.framework */; };
-		D9DB387C1C5845BA003E55FB /* KissXMLSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB387B1C5845BA003E55FB /* KissXMLSwiftTests.swift */; };
+		A9FB98401DC17F64CCCB18E3 /* libPods-KissXMLTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB24D3F146594D5BA971AF07 /* libPods-KissXMLTests.a */; };
+		D92F89D21C582AEE008C1F90 /* KissXMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92F89D11C582AEE008C1F90 /* KissXMLTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D9F98E4E9274E7FE7236211 /* Pods-KissXMLSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KissXMLSwiftTests/Pods-KissXMLSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		45C05E6813A1A077F1A35E5F /* Pods_KissXMLSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KissXMLSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		489CB490979AD956670153FB /* Pods-KissXMLSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KissXMLSwiftTests/Pods-KissXMLSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D9DB38791C5845BA003E55FB /* KissXMLSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KissXMLSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9DB387B1C5845BA003E55FB /* KissXMLSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KissXMLSwiftTests.swift; sourceTree = "<group>"; };
-		D9DB387D1C5845BA003E55FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118119B6ADBE0D1B53049C24 /* Pods-KissXMLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KissXMLTests/Pods-KissXMLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6FADFA4F3C952CEB87FD8F8 /* Pods-KissXMLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KissXMLTests/Pods-KissXMLTests.release.xcconfig"; sourceTree = "<group>"; };
+		D92F89CF1C582AEE008C1F90 /* KissXMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KissXMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92F89D11C582AEE008C1F90 /* KissXMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KissXMLTests.m; path = ../../Shared/KissXMLTests.m; sourceTree = "<group>"; };
+		D92F89D31C582AEE008C1F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB24D3F146594D5BA971AF07 /* libPods-KissXMLTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KissXMLTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D9DB38761C5845BA003E55FB /* Frameworks */ = {
+		D92F89CC1C582AEE008C1F90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FB55F4C9A619D81B2B6D5F9 /* Pods_KissXMLSwiftTests.framework in Frameworks */,
+				A9FB98401DC17F64CCCB18E3 /* libPods-KissXMLTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CAF7F0EA91C35E08F4C76441 /* Pods */ = {
+		77336FAB70E3EE954FF63735 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				489CB490979AD956670153FB /* Pods-KissXMLSwiftTests.debug.xcconfig */,
-				1D9F98E4E9274E7FE7236211 /* Pods-KissXMLSwiftTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D88E11315861A1E4686DB829 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				45C05E6813A1A077F1A35E5F /* Pods_KissXMLSwiftTests.framework */,
+				DB24D3F146594D5BA971AF07 /* libPods-KissXMLTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D92F89D01C582AEE008C1F90 /* KissXMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				D92F89D11C582AEE008C1F90 /* KissXMLTests.m */,
+				D92F89D31C582AEE008C1F90 /* Info.plist */,
+			);
+			path = KissXMLTests;
 			sourceTree = "<group>";
 		};
 		D9AA72491C56EE9D00002BEE = {
 			isa = PBXGroup;
 			children = (
-				D9DB387A1C5845BA003E55FB /* KissXMLSwiftTests */,
+				D92F89D01C582AEE008C1F90 /* KissXMLTests */,
 				D9AA72551C56EEF500002BEE /* Products */,
-				CAF7F0EA91C35E08F4C76441 /* Pods */,
-				D88E11315861A1E4686DB829 /* Frameworks */,
+				E18FECB466D758E0304EE6FD /* Pods */,
+				77336FAB70E3EE954FF63735 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D9AA72551C56EEF500002BEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9DB38791C5845BA003E55FB /* KissXMLSwiftTests.xctest */,
+				D92F89CF1C582AEE008C1F90 /* KissXMLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9DB387A1C5845BA003E55FB /* KissXMLSwiftTests */ = {
+		E18FECB466D758E0304EE6FD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D9DB387B1C5845BA003E55FB /* KissXMLSwiftTests.swift */,
-				D9DB387D1C5845BA003E55FB /* Info.plist */,
+				118119B6ADBE0D1B53049C24 /* Pods-KissXMLTests.debug.xcconfig */,
+				B6FADFA4F3C952CEB87FD8F8 /* Pods-KissXMLTests.release.xcconfig */,
 			);
-			path = KissXMLSwiftTests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D9DB38781C5845BA003E55FB /* KissXMLSwiftTests */ = {
+		D92F89CE1C582AEE008C1F90 /* KissXMLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9DB38801C5845BA003E55FB /* Build configuration list for PBXNativeTarget "KissXMLSwiftTests" */;
+			buildConfigurationList = D92F89D41C582AEE008C1F90 /* Build configuration list for PBXNativeTarget "KissXMLTests" */;
 			buildPhases = (
-				7F06356A51F464385261A193 /* [CP] Check Pods Manifest.lock */,
-				D9DB38751C5845BA003E55FB /* Sources */,
-				D9DB38761C5845BA003E55FB /* Frameworks */,
-				D9DB38771C5845BA003E55FB /* Resources */,
-				B80AC4DC07455D15D9429DBB /* [CP] Embed Pods Frameworks */,
-				B93F80DD70215412261A5B21 /* [CP] Copy Pods Resources */,
+				2B9FDC8BF808217099BB7420 /* [CP] Check Pods Manifest.lock */,
+				D92F89CB1C582AEE008C1F90 /* Sources */,
+				D92F89CC1C582AEE008C1F90 /* Frameworks */,
+				D92F89CD1C582AEE008C1F90 /* Resources */,
+				796A1BB0D488DBA9C15D14DD /* [CP] Embed Pods Frameworks */,
+				506DF61E02F664DE0B44A546 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KissXMLSwiftTests;
-			productName = KissXMLSwiftTests;
-			productReference = D9DB38791C5845BA003E55FB /* KissXMLSwiftTests.xctest */;
+			name = KissXMLTests;
+			productName = KissXMLTests;
+			productReference = D92F89CF1C582AEE008C1F90 /* KissXMLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				TargetAttributes = {
-					D9DB38781C5845BA003E55FB = {
+					D92F89CE1C582AEE008C1F90 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -125,13 +125,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9DB38781C5845BA003E55FB /* KissXMLSwiftTests */,
+				D92F89CE1C582AEE008C1F90 /* KissXMLTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D9DB38771C5845BA003E55FB /* Resources */ = {
+		D92F89CD1C582AEE008C1F90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -141,7 +141,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F06356A51F464385261A193 /* [CP] Check Pods Manifest.lock */ = {
+		2B9FDC8BF808217099BB7420 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -156,22 +156,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B80AC4DC07455D15D9429DBB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KissXMLSwiftTests/Pods-KissXMLSwiftTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B93F80DD70215412261A5B21 /* [CP] Copy Pods Resources */ = {
+		506DF61E02F664DE0B44A546 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,40 +168,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KissXMLSwiftTests/Pods-KissXMLSwiftTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KissXMLTests/Pods-KissXMLTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		796A1BB0D488DBA9C15D14DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KissXMLTests/Pods-KissXMLTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D9DB38751C5845BA003E55FB /* Sources */ = {
+		D92F89CB1C582AEE008C1F90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DB387C1C5845BA003E55FB /* KissXMLSwiftTests.swift in Sources */,
+				D92F89D21C582AEE008C1F90 /* KissXMLTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D9AA724E1C56EE9D00002BEE /* Debug */ = {
+		D92F89D51C582AEE008C1F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				ONLY_ACTIVE_ARCH = YES;
-			};
-			name = Debug;
-		};
-		D9AA724F1C56EE9D00002BEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		D9DB387E1C5845BA003E55FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 489CB490979AD956670153FB /* Pods-KissXMLSwiftTests.debug.xcconfig */;
+			baseConfigurationReference = 118119B6ADBE0D1B53049C24 /* Pods-KissXMLTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -232,8 +218,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -252,28 +237,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KissXMLSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				INFOPLIST_FILE = KissXMLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/KissXML\"",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.ballinger.KissXMLSwiftTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ballinger.KissXMLTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		D9DB387F1C5845BA003E55FB /* Release */ = {
+		D92F89D61C582AEE008C1F90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D9F98E4E9274E7FE7236211 /* Pods-KissXMLSwiftTests.release.xcconfig */;
+			baseConfigurationReference = B6FADFA4F3C952CEB87FD8F8 /* Pods-KissXMLTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -289,8 +266,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -303,40 +279,48 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = KissXMLSwiftTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				INFOPLIST_FILE = KissXMLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/KissXML\"",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.ballinger.KissXMLSwiftTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.ballinger.KissXMLTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9AA724E1C56EE9D00002BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9AA724F1C56EE9D00002BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D92F89D41C582AEE008C1F90 /* Build configuration list for PBXNativeTarget "KissXMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92F89D51C582AEE008C1F90 /* Debug */,
+				D92F89D61C582AEE008C1F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D9AA724D1C56EE9D00002BEE /* Build configuration list for PBXProject "KissXML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9AA724E1C56EE9D00002BEE /* Debug */,
 				D9AA724F1C56EE9D00002BEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9DB38801C5845BA003E55FB /* Build configuration list for PBXNativeTarget "KissXMLSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9DB387E1C5845BA003E55FB /* Debug */,
-				D9DB387F1C5845BA003E55FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
